@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/stevenKirill/create-burger-app/static/css/main.8ceb78e0.chunk.css",
+    "main.js": "/stevenKirill/create-burger-app/static/js/main.05637cec.chunk.js",
+    "main.js.map": "/stevenKirill/create-burger-app/static/js/main.05637cec.chunk.js.map",
+    "runtime-main.js": "/stevenKirill/create-burger-app/static/js/runtime-main.97d17e3f.js",
+    "runtime-main.js.map": "/stevenKirill/create-burger-app/static/js/runtime-main.97d17e3f.js.map",
+    "static/js/2.33bdedf7.chunk.js": "/stevenKirill/create-burger-app/static/js/2.33bdedf7.chunk.js",
+    "static/js/2.33bdedf7.chunk.js.map": "/stevenKirill/create-burger-app/static/js/2.33bdedf7.chunk.js.map",
+    "static/js/3.937a2f25.chunk.js": "/stevenKirill/create-burger-app/static/js/3.937a2f25.chunk.js",
+    "static/js/3.937a2f25.chunk.js.map": "/stevenKirill/create-burger-app/static/js/3.937a2f25.chunk.js.map",
+    "index.html": "/stevenKirill/create-burger-app/index.html",
+    "static/css/main.8ceb78e0.chunk.css.map": "/stevenKirill/create-burger-app/static/css/main.8ceb78e0.chunk.css.map",
+    "static/js/2.33bdedf7.chunk.js.LICENSE.txt": "/stevenKirill/create-burger-app/static/js/2.33bdedf7.chunk.js.LICENSE.txt",
+    "static/media/burger-logo.ec69c7f6.png": "/stevenKirill/create-burger-app/static/media/burger-logo.ec69c7f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97d17e3f.js",
+    "static/js/2.33bdedf7.chunk.js",
+    "static/css/main.8ceb78e0.chunk.css",
+    "static/js/main.05637cec.chunk.js"
+  ]
+}
