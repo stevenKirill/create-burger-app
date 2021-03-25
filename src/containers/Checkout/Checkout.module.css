@@ -1,0 +1,17 @@
+.header {
+    text-align: center;
+    margin: 0;
+}
+.buttons {
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.empty {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: tomato;
+}

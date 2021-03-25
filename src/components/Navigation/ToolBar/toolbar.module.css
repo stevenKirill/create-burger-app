@@ -1,0 +1,49 @@
+.toolbar {
+    background-color: sandybrown;
+    display: block;
+    width: 30%;
+}
+.toolbar ul {
+    margin: 0;
+}
+.toolbarWrapper {
+    background-color: sienna;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+    height: 64px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu:first-child {
+    margin-right: 10px;
+}
+.item {
+    padding-top: 20px;
+}
+.navLinkDefault {
+    color: tomato;
+}
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+.navlink:hover {
+    border-bottom: 3px solid rgb(224, 109, 14);
+}
+
+@media(max-width: 700px) {
+    .menu {
+        font-size: 15px;
+    }   
+}

@@ -1,0 +1,16 @@
+.startAdding {
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+}
+.burger {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.maxBurgerHeight {
+    max-height: 270px;
+}
+.scrollable {
+    overflow-y: scroll;
+}

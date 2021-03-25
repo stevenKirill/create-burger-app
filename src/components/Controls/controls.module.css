@@ -1,0 +1,35 @@
+.controlWrapper {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.label {
+    font-size: 17px;
+    text-align: left;
+    display: block;
+    width: 10%;
+}
+.add, .remove {
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(179, 170, 41);
+    border: none;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid chocolate;
+    color:  white;
+    cursor: pointer;
+}
+.remove {
+    margin-left: 10px;
+}
+.add:active, .remove:active {
+    border: none;
+}
+.add:focus {
+    border: none;
+}
+
+.add:disabled, .remove:disabled {
+    background-color: tomato;
+}

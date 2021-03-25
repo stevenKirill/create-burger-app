@@ -1,0 +1,49 @@
+.rowContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 18px;
+    background: peru;
+    color: white;
+}
+.order {
+    background-color: rgb(255, 203, 106);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(122, 80, 0);
+}
+.user {
+ width: 200px;
+}
+.price {
+    width: 200px;
+}
+.label {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.header {
+    text-align: center;
+}
+.loaderWrapper {
+    width: 150px;
+    margin: 10% auto;
+}
+.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.noData {
+    text-align: center;
+    font-size: 30px;
+    color: orange;
+    font-weight: bold
+}

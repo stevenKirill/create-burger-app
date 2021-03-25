@@ -1,0 +1,59 @@
+.forma {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+.forma h1 {
+    text-align: center;
+}
+.label {
+    margin-right: 10px;
+}
+.wrapper {
+    display: flex;
+}
+.marginTop {
+    margin-top: 10px;
+}
+.loaderContainer {
+    width: 150px;
+    margin: 10px auto;
+}
+.buttonContainer {
+    margin-top: 10px;
+}
+.errorsContainer {
+    width: 30%;
+    position: absolute;
+    border-radius: 10px;
+    color: white;
+    background-color: tomato;
+    text-align: left;
+    padding: 10px;
+    bottom: 50px;
+    right:50px;
+    animation: errorsContainer 1.2s infinite;
+}
+
+@keyframes errorsContainer {
+    0% {
+      transform: scale(1);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: scale(1.2);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+.error {
+    margin-top: 5px;
+}

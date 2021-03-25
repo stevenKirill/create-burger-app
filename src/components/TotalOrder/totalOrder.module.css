@@ -1,0 +1,13 @@
+.total {
+    padding: 10px;
+    background-color: rgb(187, 69, 26);
+    border: 1px solid chocolate;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: transform ease 0.4s;
+}
+.total:hover {
+    transform: scale(1.2);
+}

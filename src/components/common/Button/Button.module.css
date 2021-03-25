@@ -1,0 +1,23 @@
+.cancel {
+    color: tomato;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(235, 163, 29);
+}
+.continue {
+    color: rgb(125, 185, 35);
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(235, 163, 29);
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+.mt-10 {
+    margin-top: 10px;
+}
