@@ -43,13 +43,14 @@ class ContactData extends Component {
             return;
         } else {
             this.setState({loading: true, valid: true});
+            const signData = JSON.parse(localStorage.getItem('signData'));
             const order = {
                 ingridients: ingridients || [],
                 totalPrice: totalPrice || '',
-                userData: userData || {}
+                userData: userData || {},
+                userId: signData.id || '',
             };
             const {history} = this.props;
-            const signData = JSON.parse(localStorage.getItem('signData'));
             axios.post('/orders.json?auth=' + signData.token, order)
             .then((response) => {
                 this.setState({loading: false});

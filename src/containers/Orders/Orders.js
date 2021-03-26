@@ -17,7 +17,8 @@ export class Orders extends Component {
     componentDidMount() {
         this.setState({loading: true})
         const signData = JSON.parse(localStorage.getItem('signData'));
-        axios.get('/orders.json?auth=' + signData.token)
+        const queryParams =`?auth=${signData.token}&orderBy="userId"&equalTo="${signData.id}"`;
+        axios.get('/orders.json' + queryParams)
         .then((response) => {
             const orders = response.data;
             const array = [];
